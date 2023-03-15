@@ -1,0 +1,13 @@
+[App]
+Name = "ai.h2o.aiem-test-app"
+Version = "0.0.1"
+Title = "AIEM Test App"
+Description = "Test AIEM Python client in wave."
+InstanceLifecycle = "MANAGED"
+Tags = ["H2O_TOOLS"]
+LongDescription = "about.md"
+
+[Runtime]
+Module = "aiem_test_app.app"
+EnableOIDC = true
+RoutingMode = "BASE_URL"
